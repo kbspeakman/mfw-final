@@ -23,19 +23,19 @@ nav.navbar.navbar-default{
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
     color: #fff;
-    background-color: black;
+    background-color: #4c4c4c;
     padding-bottom: 10px;
 }
 
 .navbar-default .navbar-nav > li > a {
-    color:black;
+    color: #4c4c4c;
     margin-top: 15px;
     /* text-shadow: 1px 1px 2px #0a0a0a; */
 }
 
 .navbar-default .navbar-nav li a:hover,
 .navbar-default .navbar-nav li a:focus {
-    color: white;
+    color: #e59965;
     background-color: grey;
     padding-bottom: 10px;
 }
@@ -170,7 +170,7 @@ p.lead{
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 3em;
-    font-weight: 700;
+    font-weight: 900;
     margin-top: 50px;
 }
 
@@ -179,6 +179,12 @@ p.lead{
     /* padding: 10px; */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 40px;
+    font-weight: 700;
+}
+
+#portfolio a {
+    color: #e59965;
+    text-decoration: none;
 }
 
 .img-fluid{
@@ -202,19 +208,33 @@ div.col-md-9{
 }  
 
 
+#portfolio .parallax .center{
+    background-image: url('../img/IMG_0467.jpg');
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-attachment: fixed;
+    height: 450px;
+    /* width: 100%; */
+    /* margin-top: 20px; */
+    overflow: hidden;
+}
+
+
+
 /* Contact Styles */
 
 #contact .container-fluid{
-    background-color: grey;
+    background-color: white;
 }
 
 #contact h1.text-uppercase{
     text-align: center;
     font-weight: 900;
     font-size: 5em;
-    margin-top: 20px;
+    margin-top: 30px;
     letter-spacing: 2px;
-    color: white;
+    color: #e59965;
     font-size: 4em;
     text-transform: uppercase;
 }
@@ -264,7 +284,7 @@ form span :after{
 }
 
 address{
-    color: white;
+    color: #4c4c4c;
     font-family: 'Helvetica', sans-serif;
     font-weight: 300;
     padding-top: 10px;
@@ -349,37 +369,37 @@ footer{
 
 .fa-facebook-f:before {
     content: "\f39e";
-    padding: 0px 10px;
+    padding: 0px 30px;
     color: #fff;
 }
 
 .fa-twitter:before {
     content: "\f099";
-    padding: 0px 10px;
+    padding: 0px 30px;
     color: #fff;
 }
 
 .fa-google-plus-g:before {
     content: "\f0d5";
-    padding: 0px 10px;
+    padding: 0px 30px;
     color: #fff;
 }
 
 .fa-linkedin-in:before {
     content: "\f0e1";
-    padding: 0px 10px;
+    padding: 0px 30px;
     color: #fff;
 }
 
 .fa-instagram:before {
     content: "\f16d";
-    padding: 0px 10px;
+    padding: 0px 30px;
     color: #fff;
 }
 
 .fa-pinterest:before {
     content: "\f0d2";
-    padding: 0px 10px;
+    padding: 0px 30px;
     color: #fff;
 }
 
