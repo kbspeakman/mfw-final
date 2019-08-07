@@ -117,6 +117,8 @@ p.lead{
     color: #e59965;
 }
 
+/* About section */
+
 #about_me img{
     width: 340px;
     height: 470px;
@@ -173,6 +175,11 @@ p.lead{
     overflow: hidden;
 }
 
+/* End of About section */
+
+
+/* Portfolio */
+
 .my-4{
     color: #e59965;
     text-align: center;
@@ -228,6 +235,7 @@ div.col-md-9{
     overflow: hidden;
 }
 
+/* End of Portfolio */
 
 
 /* Contact Styles */
@@ -302,6 +310,11 @@ address{
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
+/* End of Contact */
+
+/* Footer */
+
 
 footer.page-footer {
     bottom: 0;
@@ -418,7 +431,7 @@ footer{
     max-width: 100%;
 }
 
-
+/* End of Footer */
 
 
 
